@@ -1,0 +1,775 @@
+2025-05-09 14:07:40,498 - INFO - [logger.py:60] - Logger initialized with level INFO ING CONFIGURATION
+2025-05-09 14:07:40,498 - INFO - [db.py:64] - Attempting database connection
+2025-05-09 14:07:40,578 - ERROR - [db.py:88] - Unexpected error during database connection: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:40,579 - CRITICAL - [main.py:111] - Database connection test failed: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:40,592 - CRITICAL - [logger.py:88] - Database connection test failed
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:40,594 - CRITICAL - [logger.py:88] - Critical error during bot startup
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:40,595 - CRITICAL - [main.py:121] - Critical error during bot startup: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:54,795 - INFO - [logger.py:60] - Logger initialized with level INFO ING CONFIGURATION
+2025-05-09 14:07:54,795 - INFO - [db.py:64] - Attempting database connection
+2025-05-09 14:07:54,849 - ERROR - [db.py:88] - Unexpected error during database connection: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:54,849 - CRITICAL - [main.py:111] - Database connection test failed: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:54,853 - CRITICAL - [logger.py:88] - Database connection test failed
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:54,855 - CRITICAL - [logger.py:88] - Critical error during bot startup
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:54,856 - CRITICAL - [main.py:121] - Critical error during bot startup: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:21:53,626 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 14:21:53,627 - INFO - [db.py:64] - Attempting database connection
+2025-05-09 14:21:53,679 - ERROR - [db.py:97] - Unexpected error during database connection: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:21:53,679 - CRITICAL - [main.py:111] - Database connection test failed: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 72, in get_connection
+    conn = psycopg2.connect(DATABASE_URL)
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:21:53,682 - CRITICAL - [logger.py:99] - Database connection test failed
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 72, in get_connection
+    conn = psycopg2.connect(DATABASE_URL)
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:21:53,683 - CRITICAL - [logger.py:99] - Critical error during bot startup
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 72, in get_connection
+    conn = psycopg2.connect(DATABASE_URL)
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:21:53,684 - CRITICAL - [main.py:121] - Critical error during bot startup: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 72, in get_connection
+    conn = psycopg2.connect(DATABASE_URL)
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:26:38,257 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 14:26:38,258 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 14:26:38,258 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 14:26:38,326 - ERROR - [db.py:97] - Unexpected error during database connection: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:26:38,326 - CRITICAL - [main.py:111] - Database connection test failed: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 74, in get_connection
+    conn = psycopg2.connect(
+        host=host,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:26:38,328 - CRITICAL - [logger.py:99] - Database connection test failed
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 74, in get_connection
+    conn = psycopg2.connect(
+        host=host,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:26:38,329 - CRITICAL - [logger.py:99] - Critical error during bot startup
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 74, in get_connection
+    conn = psycopg2.connect(
+        host=host,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:26:38,330 - CRITICAL - [main.py:121] - Critical error during bot startup: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 74, in get_connection
+    conn = psycopg2.connect(
+        host=host,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:28:50,434 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 14:28:50,435 - WARNING - [main.py:119] - Running in DEVELOPMENT MODE - database connection check skipped
+2025-05-09 14:28:50,629 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 14:28:50,629 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 14:28:50,630 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 14:28:51,121 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 14:28:51,260 - INFO - [dispatcher.py:172] - Update id=469555712 is not handled. Duration 3 ms by bot id=8004143936
+2025-05-09 14:28:51,261 - INFO - [dispatcher.py:172] - Update id=469555711 is not handled. Duration 5 ms by bot id=8004143936
+2025-05-09 14:38:30,774 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 14:38:30,780 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 14:38:30,866 - ERROR - [db.py:97] - Unexpected error during database connection: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:30,867 - ERROR - [db.py:171] - Error in get_customer_id: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:30,867 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 14:38:30,868 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 14:38:30,916 - ERROR - [db.py:97] - Unexpected error during database connection: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:30,916 - ERROR - [db.py:374] - Error in register_customer: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:31,291 - INFO - [dispatcher.py:172] - Update id=469555713 is handled. Duration 517 ms by bot id=8004143936
+2025-05-09 14:38:34,742 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 14:38:34,746 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 14:38:34,806 - ERROR - [db.py:97] - Unexpected error during database connection: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:34,807 - ERROR - [db.py:171] - Error in get_customer_id: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:34,807 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 14:38:34,807 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 14:38:34,850 - ERROR - [db.py:97] - Unexpected error during database connection: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:34,851 - ERROR - [db.py:374] - Error in register_customer: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:35,029 - INFO - [dispatcher.py:172] - Update id=469555714 is handled. Duration 287 ms by bot id=8004143936
+2025-05-09 14:38:51,505 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 14:38:51,505 - WARNING - [main.py:119] - Running in DEVELOPMENT MODE - database connection check skipped
+2025-05-09 14:38:51,688 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 14:38:51,688 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 14:38:51,689 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 14:38:52,178 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 14:38:54,597 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 14:38:54,597 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 14:38:54,656 - ERROR - [db.py:97] - Unexpected error during database connection: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:54,657 - ERROR - [db.py:171] - Error in get_customer_id: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:54,658 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 14:38:54,660 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 14:38:54,703 - ERROR - [db.py:97] - Unexpected error during database connection: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:54,704 - ERROR - [db.py:374] - Error in register_customer: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:38:55,113 - INFO - [dispatcher.py:172] - Update id=469555715 is handled. Duration 517 ms by bot id=8004143936
+2025-05-09 14:50:03,078 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 14:50:03,079 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 14:50:03,079 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 14:50:03,139 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 14:50:03,139 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 14:50:03,348 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 14:50:03,348 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 14:50:03,348 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 14:50:03,946 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 15:03:59,576 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 15:03:59,576 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:03:59,576 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:03:59,620 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:03:59,620 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 15:03:59,795 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 15:03:59,795 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 15:03:59,795 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 15:04:00,382 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 15:04:05,844 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:04:05,844 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:04:05,895 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:04:05,897 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:04:05,898 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:04:05,938 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:04:06,469 - INFO - [dispatcher.py:172] - Update id=469555716 is handled. Duration 624 ms by bot id=8004143936
+2025-05-09 15:04:09,959 - INFO - [dispatcher.py:172] - Update id=469555717 is handled. Duration 274 ms by bot id=8004143936
+2025-05-09 15:04:11,749 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:04:11,750 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:04:11,817 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:04:11,820 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:04:11,820 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:04:11,967 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:04:12,197 - INFO - [dispatcher.py:172] - Update id=469555718 is handled. Duration 449 ms by bot id=8004143936
+2025-05-09 15:04:14,576 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:04:14,576 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:04:14,618 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:04:14,621 - ERROR - [db.py:127] - Database error in get_available_cars: ОШИБКА:  отношение "car_images" не существует
+LINE 7:                         FROM car_images 
+                                     ^
+
+2025-05-09 15:04:14,922 - INFO - [dispatcher.py:172] - Update id=469555719 is handled. Duration 346 ms by bot id=8004143936
+2025-05-09 15:17:50,915 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 15:17:50,916 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:17:50,916 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:17:50,973 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:17:50,974 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 15:17:51,186 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 15:17:51,187 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 15:17:51,188 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 15:17:51,639 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 15:17:54,776 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:17:54,776 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:17:54,829 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:17:55,339 - INFO - [dispatcher.py:172] - Update id=469555720 is handled. Duration 563 ms by bot id=8004143936
+2025-05-09 15:17:57,076 - INFO - [dispatcher.py:172] - Update id=469555721 is handled. Duration 362 ms by bot id=8004143936
+2025-05-09 15:17:58,483 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:17:58,484 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:17:58,550 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:17:58,717 - INFO - [dispatcher.py:172] - Update id=469555722 is handled. Duration 234 ms by bot id=8004143936
+2025-05-09 15:18:00,223 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:18:00,223 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:18:00,292 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:18:00,430 - INFO - [dispatcher.py:172] - Update id=469555723 is handled. Duration 207 ms by bot id=8004143936
+2025-05-09 15:18:06,956 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:18:06,957 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:18:07,012 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:18:07,216 - INFO - [dispatcher.py:172] - Update id=469555724 is handled. Duration 260 ms by bot id=8004143936
+2025-05-09 15:19:58,332 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:19:58,332 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:19:58,381 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:19:58,523 - INFO - [dispatcher.py:172] - Update id=469555725 is handled. Duration 191 ms by bot id=8004143936
+2025-05-09 15:20:00,064 - INFO - [dispatcher.py:172] - Update id=469555726 is handled. Duration 280 ms by bot id=8004143936
+2025-05-09 15:20:00,546 - INFO - [dispatcher.py:172] - Update id=469555727 is handled. Duration 567 ms by bot id=8004143936
+2025-05-09 15:20:02,761 - INFO - [dispatcher.py:172] - Update id=469555728 is handled. Duration 137 ms by bot id=8004143936
+2025-05-09 15:20:04,009 - INFO - [dispatcher.py:172] - Update id=469555729 is handled. Duration 128 ms by bot id=8004143936
+2025-05-09 15:20:05,085 - INFO - [dispatcher.py:172] - Update id=469555730 is handled. Duration 181 ms by bot id=8004143936
+2025-05-09 15:20:05,937 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:20:05,937 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:20:05,993 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:20:06,126 - INFO - [dispatcher.py:172] - Update id=469555731 is handled. Duration 191 ms by bot id=8004143936
+2025-05-09 15:20:09,611 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:20:09,612 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:20:09,659 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:20:09,662 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:20:09,662 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:20:09,712 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:20:10,014 - INFO - [dispatcher.py:172] - Update id=469555732 is handled. Duration 404 ms by bot id=8004143936
+2025-05-09 15:20:13,770 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:20:13,771 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:20:13,824 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:20:13,967 - INFO - [dispatcher.py:172] - Update id=469555733 is handled. Duration 197 ms by bot id=8004143936
+2025-05-09 15:20:14,944 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:20:14,944 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:20:14,994 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:20:15,188 - INFO - [dispatcher.py:172] - Update id=469555734 is handled. Duration 244 ms by bot id=8004143936
+2025-05-09 15:20:18,643 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:20:18,643 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:20:18,681 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:20:18,841 - INFO - [dispatcher.py:172] - Update id=469555735 is handled. Duration 199 ms by bot id=8004143936
+2025-05-09 15:21:56,889 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:21:56,890 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:21:56,938 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:21:57,233 - ERROR - [helpers.py:53] - Error in send_or_edit_message: Telegram server says - Bad Request: wrong remote file identifier specified: can't unserialize it. Wrong last symbol
+2025-05-09 15:21:57,441 - INFO - [dispatcher.py:172] - Update id=469555736 is handled. Duration 552 ms by bot id=8004143936
+2025-05-09 15:22:07,846 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 15:22:07,847 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:22:07,847 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:22:07,895 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:22:07,895 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 15:22:08,077 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 15:22:08,077 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 15:22:08,078 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 15:22:08,665 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 15:22:54,973 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:22:54,976 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:22:55,023 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:22:55,582 - INFO - [dispatcher.py:172] - Update id=469555737 is handled. Duration 610 ms by bot id=8004143936
+2025-05-09 15:22:57,126 - INFO - [dispatcher.py:172] - Update id=469555738 is handled. Duration 292 ms by bot id=8004143936
+2025-05-09 15:22:58,672 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:22:58,672 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:22:58,739 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:22:58,923 - INFO - [dispatcher.py:172] - Update id=469555739 is handled. Duration 251 ms by bot id=8004143936
+2025-05-09 15:23:00,107 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:23:00,108 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:23:00,148 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:23:00,479 - ERROR - [helpers.py:53] - Error in send_or_edit_message: Telegram server says - Bad Request: wrong remote file identifier specified: can't unserialize it. Wrong last symbol
+2025-05-09 15:23:00,661 - INFO - [dispatcher.py:172] - Update id=469555740 is handled. Duration 554 ms by bot id=8004143936
+2025-05-09 15:25:59,528 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 15:25:59,529 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:25:59,529 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:25:59,586 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:25:59,586 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 15:25:59,766 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 15:25:59,766 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 15:25:59,767 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 15:26:00,169 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 15:26:02,475 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:26:02,475 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:26:02,537 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:26:03,145 - INFO - [dispatcher.py:172] - Update id=469555741 is handled. Duration 670 ms by bot id=8004143936
+2025-05-09 15:26:04,338 - INFO - [dispatcher.py:172] - Update id=469555742 is handled. Duration 294 ms by bot id=8004143936
+2025-05-09 15:26:05,809 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:26:05,810 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:26:05,891 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:26:06,075 - INFO - [dispatcher.py:172] - Update id=469555743 is handled. Duration 267 ms by bot id=8004143936
+2025-05-09 15:26:07,035 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:26:07,036 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:26:07,092 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:26:07,472 - WARNING - [helpers.py:36] - Failed to send photo, falling back to text: Telegram server says - Bad Request: wrong remote file identifier specified: can't unserialize it. Wrong last symbol
+2025-05-09 15:26:07,697 - INFO - [dispatcher.py:172] - Update id=469555744 is handled. Duration 663 ms by bot id=8004143936
+2025-05-09 15:38:09,870 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 15:38:09,873 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:38:09,873 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:38:09,938 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:38:09,939 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 15:38:10,122 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 15:38:10,123 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 15:38:10,123 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 15:38:10,711 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 15:38:12,728 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:38:12,729 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:38:12,799 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:38:13,328 - INFO - [dispatcher.py:172] - Update id=469555745 is handled. Duration 599 ms by bot id=8004143936
+2025-05-09 15:38:14,752 - INFO - [dispatcher.py:172] - Update id=469555746 is handled. Duration 389 ms by bot id=8004143936
+2025-05-09 15:38:15,540 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:38:15,542 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:38:15,597 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:38:15,819 - INFO - [dispatcher.py:172] - Update id=469555747 is handled. Duration 281 ms by bot id=8004143936
+2025-05-09 15:38:16,742 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:38:16,742 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:38:16,805 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:38:17,131 - WARNING - [helpers.py:43] - Invalid file ID detected for car #2. Error: Telegram server says - Bad Request: wrong remote file identifier specified: can't unserialize it. Wrong last symbol
+2025-05-09 15:38:17,132 - WARNING - [helpers.py:65] - Failed to send photo, falling back to text: Telegram server says - Bad Request: wrong remote file identifier specified: can't unserialize it. Wrong last symbol
+2025-05-09 15:38:17,339 - INFO - [dispatcher.py:172] - Update id=469555748 is handled. Duration 597 ms by bot id=8004143936
+2025-05-09 15:53:56,724 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 15:53:56,724 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:53:56,724 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:53:56,788 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:53:56,789 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 15:53:56,966 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 15:53:56,966 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 15:53:56,966 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 15:53:57,431 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 15:54:05,471 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:54:05,471 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:54:05,520 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:54:06,109 - INFO - [dispatcher.py:172] - Update id=469555749 is handled. Duration 639 ms by bot id=8004143936
+2025-05-09 15:54:07,495 - INFO - [dispatcher.py:172] - Update id=469555750 is handled. Duration 304 ms by bot id=8004143936
+2025-05-09 15:54:08,555 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:54:08,555 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:54:08,610 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:54:08,760 - INFO - [dispatcher.py:172] - Update id=469555751 is handled. Duration 205 ms by bot id=8004143936
+2025-05-09 15:54:09,649 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:54:09,650 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:54:09,703 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:54:10,638 - WARNING - [helpers.py:55] - Failed to send photo, falling back to text: HTTP Client says - ClientConnectionError: Failed to send bytes into the underlying connection Connection<ConnectionKey(host='api.telegram.org', port=443, is_ssl=True, ssl=True, proxy=None, proxy_auth=None, proxy_headers_hash=None)>
+2025-05-09 15:54:11,083 - INFO - [dispatcher.py:172] - Update id=469555752 is handled. Duration 1434 ms by bot id=8004143936
+2025-05-09 15:54:19,200 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:54:19,201 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:54:19,253 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:54:19,711 - INFO - [dispatcher.py:172] - Update id=469555753 is handled. Duration 511 ms by bot id=8004143936
+2025-05-09 15:54:21,294 - INFO - [dispatcher.py:172] - Update id=469555754 is handled. Duration 364 ms by bot id=8004143936
+2025-05-09 15:54:22,706 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:54:22,706 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:54:22,769 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:54:22,771 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:54:22,772 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:54:22,821 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:54:22,960 - INFO - [dispatcher.py:172] - Update id=469555755 is handled. Duration 254 ms by bot id=8004143936
+2025-05-09 15:54:24,567 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:54:24,568 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:54:24,624 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:54:24,888 - INFO - [dispatcher.py:172] - Update id=469555756 is handled. Duration 321 ms by bot id=8004143936
+2025-05-09 15:54:28,323 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:54:28,323 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:54:28,382 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:54:28,384 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:54:28,384 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:54:28,423 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:54:28,592 - INFO - [dispatcher.py:172] - Update id=469555757 is handled. Duration 270 ms by bot id=8004143936
+2025-05-09 15:54:30,853 - INFO - [dispatcher.py:172] - Update id=469555758 is not handled. Duration 23 ms by bot id=8004143936
+2025-05-09 15:54:33,281 - INFO - [dispatcher.py:172] - Update id=469555759 is not handled. Duration 3 ms by bot id=8004143936
+2025-05-09 15:54:34,185 - INFO - [dispatcher.py:172] - Update id=469555760 is not handled. Duration 2 ms by bot id=8004143936
+2025-05-09 15:54:34,694 - INFO - [dispatcher.py:172] - Update id=469555761 is not handled. Duration 2 ms by bot id=8004143936
+2025-05-09 15:54:38,125 - INFO - [dispatcher.py:172] - Update id=469555762 is not handled. Duration 3 ms by bot id=8004143936
+2025-05-09 15:54:39,683 - INFO - [dispatcher.py:172] - Update id=469555763 is not handled. Duration 3 ms by bot id=8004143936
+2025-05-09 15:58:03,730 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 15:58:03,731 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:58:03,732 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:58:03,785 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:58:03,786 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 15:58:03,965 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 15:58:03,965 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 15:58:03,966 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 15:58:04,551 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 15:58:04,669 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 15:58:04,670 - WARNING - [dispatcher.py:221] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8004143936)
+2025-05-09 15:58:08,797 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 15:58:08,797 - WARNING - [dispatcher.py:221] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8004143936)
+2025-05-09 15:58:09,928 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 15:58:09,928 - WARNING - [dispatcher.py:221] - Sleep for 1.077043 seconds and try again... (tryings = 1, bot id = 8004143936)
+2025-05-09 15:58:14,125 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 15:58:14,125 - WARNING - [dispatcher.py:221] - Sleep for 1.292019 seconds and try again... (tryings = 1, bot id = 8004143936)
+2025-05-09 15:58:15,544 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 15:58:15,544 - WARNING - [dispatcher.py:221] - Sleep for 1.645503 seconds and try again... (tryings = 2, bot id = 8004143936)
+2025-05-09 15:58:20,311 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 15:58:20,311 - WARNING - [dispatcher.py:221] - Sleep for 1.775177 seconds and try again... (tryings = 2, bot id = 8004143936)
+2025-05-09 15:58:22,224 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 15:58:22,224 - WARNING - [dispatcher.py:221] - Sleep for 1.951124 seconds and try again... (tryings = 3, bot id = 8004143936)
+2025-05-09 15:58:31,581 - INFO - [dispatcher.py:233] - Connection established (tryings = 3, bot id = 8004143936)
+2025-05-09 15:58:31,582 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:58:31,582 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:58:31,619 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:58:32,279 - INFO - [dispatcher.py:172] - Update id=469555764 is handled. Duration 697 ms by bot id=8004143936
+2025-05-09 15:58:33,527 - INFO - [dispatcher.py:172] - Update id=469555765 is handled. Duration 291 ms by bot id=8004143936
+2025-05-09 15:58:34,688 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:58:34,689 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:58:34,751 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:58:34,886 - INFO - [dispatcher.py:172] - Update id=469555766 is handled. Duration 198 ms by bot id=8004143936
+2025-05-09 15:58:35,926 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:58:35,926 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:58:35,971 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:58:40,889 - INFO - [dispatcher.py:172] - Update id=469555767 is handled. Duration 4963 ms by bot id=8004143936
+2025-05-09 15:58:46,736 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:58:46,736 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:58:46,785 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:58:47,093 - INFO - [dispatcher.py:172] - Update id=469555768 is handled. Duration 357 ms by bot id=8004143936
+2025-05-09 15:58:49,179 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:58:49,179 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:58:49,227 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:58:49,593 - INFO - [dispatcher.py:172] - Update id=469555769 is handled. Duration 414 ms by bot id=8004143936
+2025-05-09 15:58:53,422 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:58:53,422 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:58:53,470 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:58:53,731 - INFO - [dispatcher.py:172] - Update id=469555770 is handled. Duration 309 ms by bot id=8004143936
+2025-05-09 15:58:55,021 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:58:55,021 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:58:55,081 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:58:55,336 - INFO - [dispatcher.py:172] - Update id=469555771 is handled. Duration 315 ms by bot id=8004143936
+2025-05-09 15:58:57,288 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:58:57,288 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:58:57,330 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:58:57,580 - INFO - [dispatcher.py:172] - Update id=469555772 is handled. Duration 292 ms by bot id=8004143936
+2025-05-09 15:59:28,495 - INFO - [helpers.py:132] - Checking admin group: message chat_id=461491383, ADMIN_GROUP_ID=-1002359665781
+2025-05-09 15:59:28,635 - INFO - [dispatcher.py:172] - Update id=469555773 is handled. Duration 139 ms by bot id=8004143936
+2025-05-09 15:59:39,174 - INFO - [helpers.py:132] - Checking admin group: message chat_id=-1002359665781, ADMIN_GROUP_ID=-1002359665781
+2025-05-09 15:59:39,315 - INFO - [dispatcher.py:172] - Update id=469555774 is handled. Duration 140 ms by bot id=8004143936
+2025-05-09 15:59:41,140 - INFO - [helpers.py:132] - Checking admin group: message chat_id=-1002359665781, ADMIN_GROUP_ID=-1002359665781
+2025-05-09 15:59:41,140 - INFO - [db.py:277] - Getting all bookings from database
+2025-05-09 15:59:41,140 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:59:41,142 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:59:41,193 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:59:41,193 - INFO - [db.py:297] - Executing query: 
+                    SELECT 
+                        b.id,
+                        b.start_date,
+                        b.end_date,
+                        b.active,
+                        c.name as customer_name,
+                        c.telegram_id as customer_telegram,
+                        cars.make,
+                        cars.model,
+                        cars.year
+                    FROM bookings b
+                    JOIN customers c ON b.customer_id = c.id
+                    JOIN cars ON b.car_id = cars.id
+                    ORDER BY b.start_date DESC
+                
+2025-05-09 15:59:41,196 - INFO - [db.py:300] - Found 1 bookings
+2025-05-09 15:59:41,396 - INFO - [dispatcher.py:172] - Update id=469555775 is handled. Duration 259 ms by bot id=8004143936
+2025-05-09 15:59:43,512 - INFO - [helpers.py:132] - Checking admin group: message chat_id=-1002359665781, ADMIN_GROUP_ID=-1002359665781
+2025-05-09 15:59:43,756 - INFO - [dispatcher.py:172] - Update id=469555776 is handled. Duration 246 ms by bot id=8004143936
+2025-05-09 15:59:46,691 - INFO - [helpers.py:132] - Checking admin group: message chat_id=-1002359665781, ADMIN_GROUP_ID=-1002359665781
+2025-05-09 15:59:46,694 - INFO - [db.py:309] - Attempting to delete booking 1
+2025-05-09 15:59:46,694 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:59:46,695 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:59:46,747 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:59:46,749 - INFO - [db.py:325] - Found booking 1: car_id=1, active=False
+2025-05-09 15:59:46,749 - INFO - [db.py:334] - Deleted booking 1
+2025-05-09 15:59:47,150 - INFO - [dispatcher.py:172] - Update id=469555777 is handled. Duration 463 ms by bot id=8004143936
+2025-05-09 15:59:48,696 - INFO - [helpers.py:132] - Checking admin group: message chat_id=-1002359665781, ADMIN_GROUP_ID=-1002359665781
+2025-05-09 15:59:48,696 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:59:48,696 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:59:48,897 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:59:49,054 - INFO - [dispatcher.py:172] - Update id=469555778 is handled. Duration 380 ms by bot id=8004143936
+2025-05-09 15:59:51,748 - INFO - [helpers.py:132] - Checking admin group: message chat_id=-1002359665781, ADMIN_GROUP_ID=-1002359665781
+2025-05-09 15:59:51,896 - INFO - [dispatcher.py:172] - Update id=469555779 is handled. Duration 150 ms by bot id=8004143936
+2025-05-09 15:59:55,466 - INFO - [helpers.py:132] - Checking admin group: message chat_id=-1002359665781, ADMIN_GROUP_ID=-1002359665781
+2025-05-09 15:59:55,466 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 15:59:55,466 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 15:59:55,516 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 15:59:55,665 - INFO - [dispatcher.py:172] - Update id=469555780 is handled. Duration 200 ms by bot id=8004143936
+2025-05-09 16:14:57,855 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 16:14:57,855 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:14:57,855 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:14:57,907 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:14:57,907 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 16:14:58,088 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 16:14:58,089 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 16:14:58,089 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 16:14:58,661 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 16:15:31,504 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:15:31,504 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:15:31,583 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:15:32,214 - INFO - [dispatcher.py:172] - Update id=469555781 is handled. Duration 711 ms by bot id=8004143936
+2025-05-09 16:15:33,528 - INFO - [dispatcher.py:172] - Update id=469555782 is handled. Duration 407 ms by bot id=8004143936
+2025-05-09 16:15:36,373 - INFO - [dispatcher.py:172] - Update id=469555783 is handled. Duration 163 ms by bot id=8004143936
+2025-05-09 16:15:37,700 - INFO - [dispatcher.py:172] - Update id=469555784 is handled. Duration 307 ms by bot id=8004143936
+2025-05-09 16:15:38,735 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:15:38,735 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:15:38,796 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:15:38,946 - INFO - [dispatcher.py:172] - Update id=469555785 is handled. Duration 212 ms by bot id=8004143936
+2025-05-09 16:15:40,399 - INFO - [dispatcher.py:172] - Update id=469555786 is handled. Duration 187 ms by bot id=8004143936
+2025-05-09 16:15:41,367 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:15:41,367 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:15:41,420 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:15:41,652 - INFO - [dispatcher.py:172] - Update id=469555787 is handled. Duration 286 ms by bot id=8004143936
+2025-05-09 16:15:42,570 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:15:42,572 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:15:42,624 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:15:43,764 - INFO - [dispatcher.py:172] - Update id=469555788 is handled. Duration 1194 ms by bot id=8004143936
+2025-05-09 16:15:45,427 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:15:45,428 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:15:45,478 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:15:45,736 - INFO - [dispatcher.py:172] - Update id=469555789 is handled. Duration 309 ms by bot id=8004143936
+2025-05-09 16:15:48,857 - INFO - [dispatcher.py:172] - Update id=469555790 is handled. Duration 264 ms by bot id=8004143936
+2025-05-09 16:15:51,739 - INFO - [dispatcher.py:172] - Update id=469555791 is handled. Duration 281 ms by bot id=8004143936
+2025-05-09 16:15:54,186 - INFO - [dispatcher.py:172] - Update id=469555792 is handled. Duration 387 ms by bot id=8004143936
+2025-05-09 16:15:57,188 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:15:57,188 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:15:57,255 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:15:57,524 - INFO - [dispatcher.py:172] - Update id=469555793 is handled. Duration 336 ms by bot id=8004143936
+2025-05-09 16:20:04,009 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 16:20:04,009 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:20:04,009 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:20:04,061 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:20:04,062 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 16:20:04,244 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 16:20:04,244 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 16:20:04,244 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 16:20:04,825 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 16:20:04,953 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:04,953 - WARNING - [dispatcher.py:221] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8004143936)
+2025-05-09 16:20:09,081 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:09,082 - WARNING - [dispatcher.py:221] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8004143936)
+2025-05-09 16:20:10,210 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:10,211 - WARNING - [dispatcher.py:221] - Sleep for 1.341617 seconds and try again... (tryings = 1, bot id = 8004143936)
+2025-05-09 16:20:14,683 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:14,684 - WARNING - [dispatcher.py:221] - Sleep for 1.339573 seconds and try again... (tryings = 1, bot id = 8004143936)
+2025-05-09 16:20:16,152 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:16,153 - WARNING - [dispatcher.py:221] - Sleep for 1.639472 seconds and try again... (tryings = 2, bot id = 8004143936)
+2025-05-09 16:20:20,925 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:20,925 - WARNING - [dispatcher.py:221] - Sleep for 1.922357 seconds and try again... (tryings = 2, bot id = 8004143936)
+2025-05-09 16:20:22,980 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:22,980 - WARNING - [dispatcher.py:221] - Sleep for 2.176449 seconds and try again... (tryings = 3, bot id = 8004143936)
+2025-05-09 16:20:28,287 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:28,288 - WARNING - [dispatcher.py:221] - Sleep for 2.499935 seconds and try again... (tryings = 3, bot id = 8004143936)
+2025-05-09 16:20:30,918 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:30,919 - WARNING - [dispatcher.py:221] - Sleep for 2.741342 seconds and try again... (tryings = 4, bot id = 8004143936)
+2025-05-09 16:20:36,791 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:36,792 - WARNING - [dispatcher.py:221] - Sleep for 3.324088 seconds and try again... (tryings = 4, bot id = 8004143936)
+2025-05-09 16:20:40,241 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:40,241 - WARNING - [dispatcher.py:221] - Sleep for 3.533144 seconds and try again... (tryings = 5, bot id = 8004143936)
+2025-05-09 16:20:43,895 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:43,895 - WARNING - [dispatcher.py:221] - Sleep for 4.488129 seconds and try again... (tryings = 5, bot id = 8004143936)
+2025-05-09 16:20:44,265 - INFO - [dispatcher.py:233] - Connection established (tryings = 6, bot id = 8004143936)
+2025-05-09 16:20:44,267 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:20:44,267 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:20:44,333 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:20:44,613 - INFO - [dispatcher.py:172] - Update id=469555794 is handled. Duration 346 ms by bot id=8004143936
+2025-05-09 16:20:46,171 - INFO - [dispatcher.py:172] - Update id=469555795 is handled. Duration 345 ms by bot id=8004143936
+2025-05-09 16:20:47,356 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:20:47,357 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:20:47,403 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:20:47,782 - INFO - [dispatcher.py:172] - Update id=469555796 is handled. Duration 425 ms by bot id=8004143936
+2025-05-09 16:20:48,506 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:48,507 - WARNING - [dispatcher.py:221] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8004143936)
+2025-05-09 16:20:48,835 - INFO - [dispatcher.py:233] - Connection established (tryings = 6, bot id = 8004143936)
+2025-05-09 16:20:49,347 - INFO - [dispatcher.py:172] - Update id=469555797 is handled. Duration 511 ms by bot id=8004143936
+2025-05-09 16:20:50,220 - INFO - [dispatcher.py:233] - Connection established (tryings = 1, bot id = 8004143936)
+2025-05-09 16:20:50,221 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:20:50,222 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:20:50,278 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:20:50,430 - INFO - [dispatcher.py:172] - Update id=469555798 is handled. Duration 209 ms by bot id=8004143936
+2025-05-09 16:20:51,205 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:20:51,205 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:20:51,255 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:20:52,064 - INFO - [dispatcher.py:172] - Update id=469555799 is handled. Duration 859 ms by bot id=8004143936
+2025-05-09 16:20:52,632 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:52,633 - WARNING - [dispatcher.py:221] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8004143936)
+2025-05-09 16:20:53,659 - INFO - [dispatcher.py:172] - Update id=469555800 is handled. Duration 357 ms by bot id=8004143936
+2025-05-09 16:20:53,788 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:53,788 - WARNING - [dispatcher.py:221] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8004143936)
+2025-05-09 16:20:53,790 - INFO - [dispatcher.py:233] - Connection established (tryings = 1, bot id = 8004143936)
+2025-05-09 16:20:54,096 - INFO - [dispatcher.py:172] - Update id=469555801 is handled. Duration 305 ms by bot id=8004143936
+2025-05-09 16:20:54,736 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:20:54,737 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:20:54,783 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:20:55,047 - INFO - [dispatcher.py:172] - Update id=469555802 is handled. Duration 311 ms by bot id=8004143936
+2025-05-09 16:20:55,365 - INFO - [dispatcher.py:233] - Connection established (tryings = 1, bot id = 8004143936)
+2025-05-09 16:20:55,368 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:20:55,369 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:20:55,420 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:20:55,709 - INFO - [dispatcher.py:172] - Update id=469555803 is handled. Duration 342 ms by bot id=8004143936
+2025-05-09 16:20:57,260 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:20:57,261 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:20:57,318 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:20:57,616 - INFO - [dispatcher.py:172] - Update id=469555804 is handled. Duration 355 ms by bot id=8004143936
+2025-05-09 16:20:57,917 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:57,918 - WARNING - [dispatcher.py:221] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8004143936)
+2025-05-09 16:20:58,928 - INFO - [dispatcher.py:172] - Update id=469555805 is handled. Duration 301 ms by bot id=8004143936
+2025-05-09 16:20:59,046 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:20:59,047 - WARNING - [dispatcher.py:221] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8004143936)
+2025-05-09 16:21:01,739 - INFO - [dispatcher.py:233] - Connection established (tryings = 1, bot id = 8004143936)
+2025-05-09 16:21:01,741 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:21:01,742 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:21:01,785 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:21:01,786 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:21:01,787 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:21:01,828 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:21:02,052 - INFO - [dispatcher.py:172] - Update id=469555806 is handled. Duration 312 ms by bot id=8004143936
+2025-05-09 16:21:03,183 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:21:03,183 - WARNING - [dispatcher.py:221] - Sleep for 1.200815 seconds and try again... (tryings = 1, bot id = 8004143936)
+2025-05-09 16:21:04,510 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:21:04,510 - WARNING - [dispatcher.py:221] - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8004143936)
+2025-05-09 16:21:08,638 - ERROR - [dispatcher.py:219] - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-05-09 16:21:08,638 - WARNING - [dispatcher.py:221] - Sleep for 1.601564 seconds and try again... (tryings = 2, bot id = 8004143936)
+2025-05-09 16:21:20,365 - INFO - [dispatcher.py:233] - Connection established (tryings = 3, bot id = 8004143936)
+2025-05-09 16:25:30,790 - INFO - [logger.py:71] - Logger initialized with level INFO
+2025-05-09 16:25:30,790 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:25:30,790 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:25:30,859 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:25:30,859 - INFO - [main.py:113] - Database connection test successful
+2025-05-09 16:25:31,036 - INFO - [main.py:94] - Starting the Car Rental Bot...
+2025-05-09 16:25:31,036 - INFO - [main.py:98] - Bot startup successful!
+2025-05-09 16:25:31,037 - INFO - [dispatcher.py:566] - Start polling
+2025-05-09 16:25:31,624 - INFO - [dispatcher.py:363] - Run polling for bot @CAURENTBot id=8004143936 - 'car_rental_CAU'
+2025-05-09 16:25:37,668 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:25:37,668 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:25:37,718 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:25:38,296 - INFO - [dispatcher.py:172] - Update id=469555807 is handled. Duration 628 ms by bot id=8004143936
+2025-05-09 16:25:40,311 - INFO - [dispatcher.py:172] - Update id=469555808 is handled. Duration 332 ms by bot id=8004143936
+2025-05-09 16:25:41,173 - INFO - [customer.py:106] - list_cars_command handler called
+2025-05-09 16:25:41,174 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:25:41,174 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:25:41,233 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:25:41,236 - INFO - [customer.py:114] - Found 4 available cars
+2025-05-09 16:25:41,405 - INFO - [customer.py:136] - State set to viewing_cars
+2025-05-09 16:25:41,406 - INFO - [dispatcher.py:172] - Update id=469555809 is handled. Duration 234 ms by bot id=8004143936
+2025-05-09 16:25:42,620 - INFO - [customer.py:243] - Car details handler called with data: car_1
+2025-05-09 16:25:42,621 - INFO - [customer.py:252] - Showing details for car ID: 1
+2025-05-09 16:25:42,622 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:25:42,623 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:25:42,672 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:25:42,676 - INFO - [customer.py:283] - Generating car details keyboard for car ID: 1
+2025-05-09 16:25:43,978 - INFO - [dispatcher.py:172] - Update id=469555810 is handled. Duration 1358 ms by bot id=8004143936
+2025-05-09 16:25:45,647 - INFO - [customer.py:315] - Book car handler called with data: book_1
+2025-05-09 16:25:45,647 - INFO - [customer.py:324] - Booking car ID: 1
+2025-05-09 16:25:45,647 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:25:45,647 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:25:45,690 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:25:45,695 - INFO - [customer.py:341] - Showing date selection for car ID: 1
+2025-05-09 16:25:45,987 - INFO - [customer.py:352] - State set to booking_select_start_date for car ID: 1
+2025-05-09 16:25:45,987 - INFO - [dispatcher.py:172] - Update id=469555811 is handled. Duration 341 ms by bot id=8004143936
+2025-05-09 16:25:50,599 - INFO - [customer.py:315] - Book car handler called with data: book_1
+2025-05-09 16:25:50,599 - INFO - [customer.py:324] - Booking car ID: 1
+2025-05-09 16:25:50,599 - INFO - [db.py:61] - Attempting database connection
+2025-05-09 16:25:50,599 - INFO - [db.py:71] - Connecting to database car_rental on localhost:5432 as postgres
+2025-05-09 16:25:50,643 - INFO - [db.py:90] - Database connected - Client: UTF8, Server: UTF8
+2025-05-09 16:25:50,646 - INFO - [customer.py:341] - Showing date selection for car ID: 1
+2025-05-09 16:25:51,032 - INFO - [customer.py:352] - State set to booking_select_start_date for car ID: 1
+2025-05-09 16:25:51,032 - INFO - [dispatcher.py:172] - Update id=469555812 is handled. Duration 434 ms by bot id=8004143936
+2025-05-09 16:25:53,762 - INFO - [dispatcher.py:172] - Update id=469555813 is handled. Duration 251 ms by bot id=8004143936

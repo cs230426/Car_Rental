@@ -1,0 +1,120 @@
+2025-05-09 14:07:40,592 - Database connection test failed
+Exception: (<class 'UnicodeDecodeError'>, UnicodeDecodeError('utf-8', b'connection to server at "localhost" (::1), port 5432 failed: \xc2\xc0\xc6\xcd\xce:  \xe1\xe0\xe7\xe0 \xe4\xe0\xed\xed\xfb\xf5 "car_rental" \xed\xe5 \xf1\xf3\xf9\xe5\xf1\xf2\xe2\xf3\xe5\xf2\n', 61, 62, 'invalid continuation byte'), <traceback object at 0x0000023EE4427F00>)
+---
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:40,594 - Critical error during bot startup
+Exception: (<class 'UnicodeDecodeError'>, UnicodeDecodeError('utf-8', b'connection to server at "localhost" (::1), port 5432 failed: \xc2\xc0\xc6\xcd\xce:  \xe1\xe0\xe7\xe0 \xe4\xe0\xed\xed\xfb\xf5 "car_rental" \xed\xe5 \xf1\xf3\xf9\xe5\xf1\xf2\xe2\xf3\xe5\xf2\n', 61, 62, 'invalid continuation byte'), <traceback object at 0x0000023EE4427F00>)
+---
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:54,853 - Database connection test failed
+Exception: (<class 'UnicodeDecodeError'>, UnicodeDecodeError('utf-8', b'connection to server at "localhost" (::1), port 5432 failed: \xc2\xc0\xc6\xcd\xce:  \xe1\xe0\xe7\xe0 \xe4\xe0\xed\xed\xfb\xf5 "car_rental" \xed\xe5 \xf1\xf3\xf9\xe5\xf1\xf2\xe2\xf3\xe5\xf2\n', 61, 62, 'invalid continuation byte'), <traceback object at 0x000001D7D8177DC0>)
+---
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:07:54,855 - Critical error during bot startup
+Exception: (<class 'UnicodeDecodeError'>, UnicodeDecodeError('utf-8', b'connection to server at "localhost" (::1), port 5432 failed: \xc2\xc0\xc6\xcd\xce:  \xe1\xe0\xe7\xe0 \xe4\xe0\xed\xed\xfb\xf5 "car_rental" \xed\xe5 \xf1\xf3\xf9\xe5\xf1\xf2\xe2\xf3\xe5\xf2\n', 61, 62, 'invalid continuation byte'), <traceback object at 0x000001D7D8177DC0>)
+---
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 65, in get_connection
+    conn = psycopg2.connect(
+        host=DB_HOST,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:21:53,682 - Database connection test failed
+Exception: (<class 'UnicodeDecodeError'>, UnicodeDecodeError('utf-8', b'connection to server at "localhost" (::1), port 5432 failed: \xc2\xc0\xc6\xcd\xce:  \xe1\xe0\xe7\xe0 \xe4\xe0\xed\xed\xfb\xf5 "car_rental" \xed\xe5 \xf1\xf3\xf9\xe5\xf1\xf2\xe2\xf3\xe5\xf2\n', 61, 62, 'invalid continuation byte'), <traceback object at 0x000001B804DCB3C0>)
+---
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 72, in get_connection
+    conn = psycopg2.connect(DATABASE_URL)
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:21:53,683 - Critical error during bot startup
+Exception: (<class 'UnicodeDecodeError'>, UnicodeDecodeError('utf-8', b'connection to server at "localhost" (::1), port 5432 failed: \xc2\xc0\xc6\xcd\xce:  \xe1\xe0\xe7\xe0 \xe4\xe0\xed\xed\xfb\xf5 "car_rental" \xed\xe5 \xf1\xf3\xf9\xe5\xf1\xf2\xe2\xf3\xe5\xf2\n', 61, 62, 'invalid continuation byte'), <traceback object at 0x000001B804DCB3C0>)
+---
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 72, in get_connection
+    conn = psycopg2.connect(DATABASE_URL)
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:26:38,328 - Database connection test failed
+Exception: (<class 'UnicodeDecodeError'>, UnicodeDecodeError('utf-8', b'connection to server at "localhost" (::1), port 5432 failed: \xc2\xc0\xc6\xcd\xce:  \xe1\xe0\xe7\xe0 \xe4\xe0\xed\xed\xfb\xf5 "car_rental" \xed\xe5 \xf1\xf3\xf9\xe5\xf1\xf2\xe2\xf3\xe5\xf2\n', 61, 62, 'invalid continuation byte'), <traceback object at 0x00000220B3C86200>)
+---
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 74, in get_connection
+    conn = psycopg2.connect(
+        host=host,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
+2025-05-09 14:26:38,329 - Critical error during bot startup
+Exception: (<class 'UnicodeDecodeError'>, UnicodeDecodeError('utf-8', b'connection to server at "localhost" (::1), port 5432 failed: \xc2\xc0\xc6\xcd\xce:  \xe1\xe0\xe7\xe0 \xe4\xe0\xed\xed\xfb\xf5 "car_rental" \xed\xe5 \xf1\xf3\xf9\xe5\xf1\xf2\xe2\xf3\xe5\xf2\n', 61, 62, 'invalid continuation byte'), <traceback object at 0x00000220B3C86200>)
+---
+Traceback (most recent call last):
+  File "C:\Car_Rental\main.py", line 108, in <module>
+    with db.get_connection() as conn:
+         ~~~~~~~~~~~~~~~~~^^
+  File "C:\Car_Rental\db.py", line 74, in get_connection
+    conn = psycopg2.connect(
+        host=host,
+    ...<5 lines>...
+        connect_timeout=CONNECT_TIMEOUT
+    )
+  File "C:\Car_Rental\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc2 in position 61: invalid continuation byte
