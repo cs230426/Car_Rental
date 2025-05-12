@@ -98,3 +98,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
+
+## Authors 
+
+210176 MAHAMAT FOTIX SHAXIN 
+230426 SHOXJAXON KURBANOV
